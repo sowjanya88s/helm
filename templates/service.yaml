@@ -6,8 +6,9 @@ spec:
   type: {{ .Values.service.type }}
   selector:
     project: roboshop
-    env: dev
-    component: nginx
+    purpose: rs-demo
+    component: frontend
+    tier: frontend
   ports:
   - protocol: TCP
     port: 80
