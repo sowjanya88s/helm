@@ -1,6 +1,6 @@
 deployment:
-  changeCause: "installing 1.29-trixie version"
+  changeCause: "installing nginx latest version"
   replicas: "1"
-  imageVersion: "1.29-trixie"
+  imageVersion: "latest"
 service:
   type: LoadBalancer

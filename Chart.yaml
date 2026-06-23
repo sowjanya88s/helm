@@ -2,4 +2,4 @@ apiVersion: v2
 name: nginx
 version: 0.0.1
 appVersion: latest
-description: "installing 1.29-trixie version"
+description: "installing latest version"
